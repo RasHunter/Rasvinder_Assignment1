@@ -1,7 +1,16 @@
 module.exports = {
     // Explain what function A does
-    let karaoke = {
-    //
+    //let karaoke = {
+
+    //customers : [{name:"" ,
+    //     groupsize:"",
+    //     date:"",
+    //     starttime:"",
+    //     endtime:"",
+    // AddCustomer() {
+    //     await(this.customers.push({}));
+    // },
+    // }]
 
     let customers ={
         name:"" ,
@@ -37,5 +46,5 @@ module.exports = {
     StopSession() {
         return 1+2;
     },
-},
+//},
 }
