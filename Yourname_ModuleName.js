@@ -1,19 +1,41 @@
 module.exports = {
     // Explain what function A does
-    functionA() {
-        return 1+2;
+    let karaoke = {
+    //
+
+    let customers ={
+        name:"" ,
+        groupsize:"",
+        date:"",
+        starttime:"",
+        endtime:"",
+        AddCustomer() {
+            await(this.customers.push({}));
+        },
     },
+        Rooms:[],
+
+        AddRoom(n,c,s) {   
+            
+            await(this.Room.push({name:n , code:c, slots:s}));
+            console.log("Added Room " + n);
+        },
+        GetRooms(conditions) {
+            
+        },
+    
+
+    
     // Explain what function B does
-    functionB() {
+    AssignRoom() {
         console.log("Hello function B");
     },
-    functionC() {
+    
+    FindByTime() {
         return 1+2;
     },
-    functionD() {
+    StopSession() {
         return 1+2;
     },
-    functionE() {
-        return 1+2;
-    },
+},
 }
