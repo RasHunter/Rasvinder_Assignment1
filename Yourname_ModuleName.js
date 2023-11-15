@@ -2,26 +2,26 @@ module.exports = {
     // Explain what function A does
     //let karaoke = {
 
-    //customers : [{name:"" ,
-    //     groupsize:"",
-    //     date:"",
-    //     starttime:"",
-    //     endtime:"",
-    // AddCustomer() {
-    //     await(this.customers.push({}));
-    // },
-    // }]
-
-    let customers ={
-        name:"" ,
+    customers : []{name:"" ,
         groupsize:"",
         date:"",
         starttime:"",
         endtime:"",
+    // AddCustomer() {
+    //     await(this.customers.push({}));
+    },
+    }
+
+    // let customers ={
+    //     name:"" ,
+    //     groupsize:"",
+    //     date:"",
+    //     starttime:"",
+    //     endtime:"",
         AddCustomer() {
             await(this.customers.push({}));
         },
-    },
+    // },
         Rooms:[],
 
         AddRoom(n,c,s) {   
