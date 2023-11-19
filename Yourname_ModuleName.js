@@ -1,16 +1,16 @@
-module.exports = {
-    // Explain what function A does
-    //let karaoke = {
+// module.exports = {
+let karaoke = {
 
-    customers : []{name:"" ,
-        groupsize:"",
-        date:"",
-        starttime:"",
-        endtime:"",
-    // AddCustomer() {
-    //     await(this.customers.push({}));
-    },
-    }
+
+    customers : [],
+    // {name:"" ,
+    //     groupsize:"",
+    //     date:"",
+    //     starttime:"",
+    //     endtime:"",
+    // // AddCustomer() {
+    // //     await(this.customers.push({}));
+    // },
 
     // let customers ={
     //     name:"" ,
@@ -18,8 +18,14 @@ module.exports = {
     //     date:"",
     //     starttime:"",
     //     endtime:"",
-        AddCustomer() {
-            await(this.customers.push({}));
+        AddCustomer(n,size,date,start,end) {
+            await(this.customers.push({name:n ,
+            groupsize:size,
+            date:date,
+            starttime:start,
+            endtime:end,
+        }))
+        console.log("Customer has been added");
         },
     // },
         Rooms:[],
